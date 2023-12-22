@@ -1,0 +1,10 @@
+D:\Pham_Men_Chat\ChatClient_Server\ChatClient_Server\bin\Debug\ChatClient_Server.exe.config
+D:\Pham_Men_Chat\ChatClient_Server\ChatClient_Server\bin\Debug\ChatClient_Server.exe
+D:\Pham_Men_Chat\ChatClient_Server\ChatClient_Server\bin\Debug\ChatClient_Server.pdb
+D:\Pham_Men_Chat\ChatClient_Server\ChatClient_Server\obj\Debug\Server.csproj.AssemblyReference.cache
+D:\Pham_Men_Chat\ChatClient_Server\ChatClient_Server\obj\Debug\ChatClient_Server.Server.resources
+D:\Pham_Men_Chat\ChatClient_Server\ChatClient_Server\obj\Debug\ChatClient_Server.Properties.Resources.resources
+D:\Pham_Men_Chat\ChatClient_Server\ChatClient_Server\obj\Debug\Server.csproj.GenerateResource.cache
+D:\Pham_Men_Chat\ChatClient_Server\ChatClient_Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+D:\Pham_Men_Chat\ChatClient_Server\ChatClient_Server\obj\Debug\ChatClient_Server.exe
+D:\Pham_Men_Chat\ChatClient_Server\ChatClient_Server\obj\Debug\ChatClient_Server.pdb
