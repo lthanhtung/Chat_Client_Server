@@ -8,3 +8,13 @@ D:\Pham_Men_Chat\ChatClient_Server\Client\obj\Debug\Client.csproj.GenerateResour
 D:\Pham_Men_Chat\ChatClient_Server\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
 D:\Pham_Men_Chat\ChatClient_Server\Client\obj\Debug\Client.exe
 D:\Pham_Men_Chat\ChatClient_Server\Client\obj\Debug\Client.pdb
+D:\Chat_Client_Server\ChatClient_Server\Client\bin\Debug\Client.exe.config
+D:\Chat_Client_Server\ChatClient_Server\Client\bin\Debug\Client.exe
+D:\Chat_Client_Server\ChatClient_Server\Client\bin\Debug\Client.pdb
+D:\Chat_Client_Server\ChatClient_Server\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+D:\Chat_Client_Server\ChatClient_Server\Client\obj\Debug\Client.Client.resources
+D:\Chat_Client_Server\ChatClient_Server\Client\obj\Debug\Client.Properties.Resources.resources
+D:\Chat_Client_Server\ChatClient_Server\Client\obj\Debug\Client.csproj.GenerateResource.cache
+D:\Chat_Client_Server\ChatClient_Server\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+D:\Chat_Client_Server\ChatClient_Server\Client\obj\Debug\Client.exe
+D:\Chat_Client_Server\ChatClient_Server\Client\obj\Debug\Client.pdb

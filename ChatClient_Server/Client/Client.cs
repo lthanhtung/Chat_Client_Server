@@ -64,6 +64,7 @@ namespace Client
             listen.IsBackground = true;
             listen.Start();
 
+
         }
         //Đóng kết nối
         void close()
