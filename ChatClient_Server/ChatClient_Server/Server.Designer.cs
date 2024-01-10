@@ -28,10 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.textBoxServer = new System.Windows.Forms.TextBox();
             this.GuiTin = new System.Windows.Forms.Button();
             this.listViewServer = new System.Windows.Forms.ListView();
             this.textBoxNameServer = new System.Windows.Forms.TextBox();
+            this.labelTime = new System.Windows.Forms.Label();
+            this.timerTime = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // textBoxServer
@@ -72,12 +75,27 @@
             this.textBoxNameServer.Size = new System.Drawing.Size(118, 44);
             this.textBoxNameServer.TabIndex = 6;
             // 
+            // labelTime
+            // 
+            this.labelTime.AutoSize = true;
+            this.labelTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTime.Location = new System.Drawing.Point(607, 399);
+            this.labelTime.Name = "labelTime";
+            this.labelTime.Size = new System.Drawing.Size(87, 20);
+            this.labelTime.TabIndex = 7;
+            this.labelTime.Text = "Date Time";
+            // 
+            // timerTime
+            // 
+            this.timerTime.Tick += new System.EventHandler(this.timerTime_Tick);
+            // 
             // Server
             // 
             this.AcceptButton = this.GuiTin;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(880, 504);
+            this.Controls.Add(this.labelTime);
             this.Controls.Add(this.textBoxNameServer);
             this.Controls.Add(this.textBoxServer);
             this.Controls.Add(this.GuiTin);
@@ -85,6 +103,7 @@
             this.Name = "Server";
             this.Text = "Server";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Server_FormClosed);
+            this.Load += new System.EventHandler(this.Server_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -96,6 +115,8 @@
         private System.Windows.Forms.Button GuiTin;
         private System.Windows.Forms.ListView listViewServer;
         private System.Windows.Forms.TextBox textBoxNameServer;
+        private System.Windows.Forms.Label labelTime;
+        private System.Windows.Forms.Timer timerTime;
     }
 }
 

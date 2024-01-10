@@ -77,11 +77,13 @@ namespace ChatClient_Server
             Listen.Start();
         }
 
+
         //Đóng kết nối
         void close()
         {
             server.Close();
         }
+
 
         //Gủi tin
         void Send(Socket client)
@@ -138,10 +140,22 @@ namespace ChatClient_Server
             }
         }
 
+
+        //hàm cập nhập thời gian
+        private void timerTime_Tick(object sender, EventArgs e)
+        {
+            labelTime.Text = DateTime.Now.ToString("HH:mm:ss dd/MM/yyyy");
+            
+        
+        }
+
+
+
         //add tin lên text box
         void AddMessage(string message)
         {
-            listViewServer.Items.Add(new ListViewItem() { Text = message});
+          
+            listViewServer.Items.Add(new ListViewItem() { Text = message + " " + "Vào lúc:" + " " + labelTime.Text });
 
         }
 
@@ -163,6 +177,12 @@ namespace ChatClient_Server
             return formatter.Deserialize(stream);
         }
 
+        //Hàm chạy timer khi khởi động chương trình
+        private void Server_Load(object sender, EventArgs e)
+        {
+            timerTime.Enabled = true;
+        }
+
 
         //Đóng kết nối khi đóng form
         private void Server_FormClosed(object sender, FormClosedEventArgs e)
@@ -171,6 +191,6 @@ namespace ChatClient_Server
 
         }
 
-       
+        
     }
 }
